@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="iphone Execution Suite" parallel="tests"
+	data-provider-thread-count="1">
+	<test name="iphone test">
+		<parameter name="browser" value="iphone" />
+		<classes>
+			<class name="com.test.acceptancetest.RunTestIphone" />
+		</classes>
+	</test>  
+</suite>

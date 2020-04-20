@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Chrome Execution Suite" parallel="tests"
+	data-provider-thread-count="1">
+	<test name="chrome test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.test.acceptancetest.RunTestChrome" />
+		</classes>
+	</test>
+</suite>

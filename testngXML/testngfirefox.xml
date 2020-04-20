@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Firefox Execution Suite" parallel="tests"
+	data-provider-thread-count="4">
+	<test name="Firefox test">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.test.acceptancetest.RunTestFirefox" />
+		</classes>
+	</test>  
+</suite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android Execution Suite" parallel="tests"
+	data-provider-thread-count="1">
+	<test name="Android test">
+		<parameter name="browser" value="android" />
+		<classes>
+			<class name="com.test.acceptancetest.RunTestAndroid" />
+		</classes>
+	</test>  
+</suite>

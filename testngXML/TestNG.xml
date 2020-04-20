@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EVA Test Execution">
+	<suite-files>
+       	  	  <suite-file path="testngXML/testngchrome.xml" /> 
+ 	  	     <!--suite-file path="testngXML/testngedge.xml" /-->
+	</suite-files>
+</suite>

@@ -1,0 +1,18 @@
+[
+	{
+		"deviceType": "android",
+		"deviceName": "OnePlus 7",
+		"platformVersion": "10",
+		"browserName": "Chrome",
+		"noReset": true
+	},
+	{
+		"deviceType": "iphone",
+		"deviceName": "iPhone 8 Simulator",
+		"platformName":"iOS",
+		"platformVersion": "11.3",
+		"browserName": "Safari",
+		"appiumVersion": "1.8.1",
+		"noReset": true
+	}
+]
